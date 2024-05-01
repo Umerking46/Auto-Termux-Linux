@@ -1,6 +1,4 @@
-To modify your bash script to display "This Script is written by Mr Zade 2.0" in green and with a bigger font size, you can use special formatting options. Here's an updated version of your script:
-
-```bash
+bash
 #!/bin/bash
 
 echo -e "\e[92m\033[5mThis Script is written by Mr Zade 2.0\e[0m"
